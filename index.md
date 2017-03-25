@@ -1,6 +1,6 @@
 ---
 layout: landscape
-title: Home
+title: About
 ---
 
 My name is Fletcher Woodruff. I'm a computer science student living in Pittsburgh. I'm an undergraduate at **Carnegie Mellon University** and will be graduating in the Spring of 2018.
