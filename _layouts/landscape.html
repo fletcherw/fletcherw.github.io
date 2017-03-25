@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+    {% include header.html %}
+
+    <div class="page-content">
+      <div class="wrapper">
+        {{ content }}
+      </div>
+    </div>
+    <script src="js/landscape.js"></script>
+    <div id="landscape-container" style="position:relative; width:100%">
+    <canvas id="landscape" style="position: absolute"></canvas>
+    <canvas id="refresh" style="position: absolute; cursor: pointer"></canvas>
+    </div>
+  </body>
+
+</html>

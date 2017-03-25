@@ -1,1 +1,11 @@
-theme: jekyll-theme-minimal
+title: Fletcher Woodruff 
+baseurl: ""
+url: "http://fletcherw.com"
+github_username:  fletcherw
+
+# Build settings
+markdown: kramdown
+theme: minima
+exclude:
+  - Gemfile
+  - Gemfile.lock
