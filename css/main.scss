@@ -29,21 +29,21 @@ $content-width:    600px;
 $on-palm:          600px;
 $on-laptop:        600px;
 
-//@font-face {
-//  font-family: "Montserrat";
-//  src: url("../static/Montserrat-Regular.otf");
-//}
-//
-//@font-face {
-//  font-family: "Crimson Text";
-//  src: url("../static/CrimsonText-Roman.ttf");
-//}
-//
-//@font-face {
-//  font-family: "Crimson Text";
-//  src: url("../static/CrimsonText-Bold.ttf");
-//  font-weight:bold
-//}
+@font-face {
+  font-family: "Montserrat";
+  src: url("../assets/Montserrat-Regular.otf");
+}
+
+@font-face {
+  font-family: "Crimson Text";
+  src: url("../assets/CrimsonText-Roman.ttf");
+}
+
+@font-face {
+  font-family: "Crimson Text";
+  src: url("../assets/CrimsonText-Bold.ttf");
+  font-weight:bold
+}
 
 // Use media queries like this:
 // @include media-query($on-palm) {
@@ -57,8 +57,6 @@ $on-laptop:        600px;
         @content;
     }
 }
-
-
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
